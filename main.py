@@ -118,10 +118,10 @@ youtube_vlogs = [
         "youtube_url": "https://youtu.be/ml1rIL1Xkyc?si=Rs4LMcuUHbXKEVcG" # 위 video_id 기반
     },
     {
-        "title": "혼자 삿포로 가는 이유 | 혼자 삿포로 여행 가면 진짜 좋은 곳 | 가성비 + 눈+ 맥주 + 삿포로 여행 총정리",
-        "video_id": "s8Yy9uW4j2Y", # 실제 유튜브 영상 ID로 교체 (예시)
-        "thumbnail_url": "https://img.youtube.com/vi/s8Yy9uW4j2Y/mqdefault.jpg", # 위 video_id 기반
-        "youtube_url": "https://www.youtube.com/watch?v=s8Yy9uW4j2Y" # 위 video_id 기반
+        "title": ☀️올여름 무조건 가야하는 삿포로 3박4일 여행코스 완벽정리💯(+경비,꿀팁까지⁉️)",
+        "video_id": "2fG60iqVrDA?si=tKw_WRgO3bIV94wR", # 실제 유튜브 영상 ID로 교체 (예시)
+        "thumbnail_url": "https://img.youtube.com/vi/2fG60iqVrDA?si=tKw_WRgO3bIV94wR/sddefault.jpg", # 위 video_id 기반
+        "youtube_url": "https://youtu.be/2fG60iqVrDA?si=tKw_WRgO3bIV94wR" # 위 video_id 기반
     }
 ]
 
