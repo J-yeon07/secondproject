@@ -112,8 +112,8 @@ youtube_vlogs = [
         "youtube_url": "https://youtu.be/YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7" # 위 video_id 기반
     },
     {
-        "title": "삿포로 3박 4일 자유여행 | 겨울왕국 홋카이도 | 비에이 | 오타루 | 삿포로 시내 | 징기스칸 | 스프카레 | 온천",
-        "video_id": "ml1rIL1Xkyc?si=Rs4LMcuUHbXKEVcG", # 실제 유튜브 영상 ID로 교체 (예시)
+        "title": "홋카이도여행 여길 안 가봤다고?(가장 인기 있는 코스 3박 4일 일정, 삿포로, 오타루, 비에이편)",
+        "video_id": "ml1rIL1Xkyc?si=Rs4LMcuUHbXKEVcG", 
         "thumbnail_url": "https://img.youtube.com/vi/ml1rIL1Xkyc?si=Rs4LMcuUHbXKEVcG/sddefault.jpg", # 위 video_id 기반
         "youtube_url": "https://youtu.be/ml1rIL1Xkyc?si=Rs4LMcuUHbXKEVcG" # 위 video_id 기반
     },
