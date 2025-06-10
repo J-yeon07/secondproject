@@ -3,3 +3,6 @@ streamlit-folium
 yfinance
 plotly
 matplotlib
+openpyxl
+pandas
+json
