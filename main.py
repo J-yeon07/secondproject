@@ -107,8 +107,8 @@ st.write("삿포로 여행의 생생함을 느껴보고 싶다면, 인기 유튜
 youtube_vlogs = [
     {
         "title": "삿포로 혼자 여행 vlog 🇯🇵 역시 겨울 여행은 삿포로지❄️ 오타루, 르타오 디저트, 오르골당, 스프카레, 헌터 단톤 쇼핑, 스스키노 가성비 숙소 | EP.1",
-        "video_id": "YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7", # 실제 유튜브 영상 ID로 교체 (예시)
-        "thumbnail_url": "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg", # 위 video_id 기반
+        "video_id": "YfcBGt_fbF8", # 실제 유튜브 영상 ID로 교체 (예시)
+        "thumbnail_url": "https://img.youtube.com/vi/YfcBGt_fbF8/hqdefault.jpg", # 위 video_id 기반
         "youtube_url": "https://youtu.be/YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7" # 위 video_id 기반
     },
     {
