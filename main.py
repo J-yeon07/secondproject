@@ -39,13 +39,13 @@ tourist_spots = [
      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxE4zcrCrB2Nlo2Q74D5AGNwXF-_wBPDnPIg&s"},
     {"name": "모이와 산 (모이와야마)", "lat": 43.0298, "lon": 141.3283,
      "description": "삿포로 야경을 감상하기 좋은 명소입니다. 로프웨이를 타고 정상에 오르면 아름다운 삿포로의 파노라마 야경을 볼 수 있습니다.",
-     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_mt-moiwa-1.jpg"},
+     "image_url": "https://www.sapporo.travel/cms/wp-content/uploads/2020/10/moiwa-yakei-1200x600-1.jpg"},
     {"name": "시로이 코이비토 파크", "lat": 43.0858, "lon": 141.2828,
      "description": "홋카이도의 유명한 과자 '시로이 코이비토'를 테마로 한 테마파크입니다. 과자 만들기 체험, 정원, 카페 등이 있습니다.",
-     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_shiroi-koibito-park-1.jpg"},
+     "image_url": "https://media.triple.guide/triple-cms/c_limit,f_auto,h_1024,w_1024/b723950c-e152-4bd9-8561-ae17a550dbc5.jpeg"},
     {"name": "스스키노", "lat": 43.0563, "lon": 141.3524,
      "description": "삿포로 최대의 번화가이자 유흥가입니다. 다양한 레스토랑, 바, 상점들이 밀집해 있으며 밤에는 화려한 네온사인으로 빛납니다.",
-     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_susukino-1.jpg"}
+     "image_url": "https://www.visit-hokkaido.jp/lsc/upfile/spot/0001/0009/10009_1_l.jpg"}
 ]
 
 # Folium 지도 생성
