@@ -7,9 +7,9 @@ import pandas as pd
 st.set_page_config(layout="wide", page_title="삿포로 관광 가이드")
 
 st.title("🌸 삿포로 주요 관광지 가이드 🌸")
-st.write("안녕하세요! 아름다운 삿포로 여행을 위한 친절하고 자세한 가이드에 오신 것을 환영합니다. 스트림릿과 폴리움으로 삿포로의 매력을 함께 탐험해볼까요?")
+st.write("안녕하세요! 아름다운 삿포로 여행을 위한 친절하고 자세한 가이드에 오신 것을 환영합니다. 삿포로의 매력을 함께 탐험해볼까요?")
 
-st.image("https://visit.sapporo.travel/ko/wp-content/uploads/2021/04/main_img.jpg", caption="삿포로의 아름다운 풍경 (출처: Visit Sapporo)", use_column_width=True)
+st.image("https://i.ytimg.com/vi/NQymyZjjFw0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDVZH224zSygXQ-8iawg_GnR_boUQ", caption="삿포로의 아름다운 풍경 (출처: youtube)", use_column_width=True)
 
 st.header("🗺️ 삿포로 주요 관광지 지도")
 st.write("아래 지도에서 삿포로의 주요 관광지들을 한눈에 확인해보세요! 각 마커를 클릭하면 간단한 정보를 볼 수 있습니다.")
