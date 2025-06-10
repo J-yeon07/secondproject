@@ -22,7 +22,7 @@ sapporo_coords = [43.0642, 141.3469]
 tourist_spots = [
     {"name": "오도리 공원", "lat": 43.0630, "lon": 141.3537,
      "description": "삿포로 시내 중심을 가로지르는 아름다운 공원입니다. 사계절 내내 다양한 행사와 축제가 열립니다. 삿포로 눈 축제, 라일락 축제 등.",
-     "image_url": "https://www.google.com/imgres?q=%EC%98%A4%EB%8F%84%EB%A6%AC%EA%B3%B5%EC%9B%90&imgurl=https%3A%2F%2Fwww.sapporo.travel%2Fcms%2Fwp-content%2Fuploads%2F2020%2F10%2Ff_odoripark_01main-1200x600-1.jpg&imgrefurl=https%3A%2F%2Fwww.sapporo.travel%2Fko%2Fspot%2Ffacility%2Fodori_park%2F&docid=xI_xkkGFPYxIFM&tbnid=9w921TTEEe6l8M&vet=12ahUKEwictr2Sv-aNAxXWr1YBHV-yIN8QM3oECBoQAA..i&w=1200&h=600&hcb=2&ved=2ahUKEwictr2Sv-aNAxXWr1YBHV-yIN8QM3oECBoQAA"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/sites/8/2022/09/spot_odoripark-5.jpg"},
     {"name": "삿포로 TV 타워", "lat": 43.0614, "lon": 141.3571,
      "description": "오도리 공원 동쪽 끝에 위치한 삿포로의 랜드마크입니다. 전망대에서 삿포로 시내를 한눈에 조망할 수 있습니다.",
      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sapporo_TV_Tower.jpg/800px-Sapporo_TV_Tower.jpg"},
