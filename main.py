@@ -9,7 +9,7 @@ st.set_page_config(layout="wide", page_title="삿포로 관광 가이드")
 st.title("🌸 삿포로 주요 관광지 가이드 🌸")
 st.write("안녕하세요! 아름다운 삿포로 여행을 위한 친절하고 자세한 가이드에 오신 것을 환영합니다. 스트림릿과 폴리움으로 삿포로의 매력을 함께 탐험해볼까요?")
 
-st.image("https://images.unsplash.com/photo-1596562098481-9b7e9a2b5e2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80", caption="삿포로의 아름다운 풍경", use_column_width=True)
+st.image("https://visit.sapporo.travel/ko/wp-content/uploads/2021/04/main_img.jpg", caption="삿포로의 아름다운 풍경 (출처: Visit Sapporo)", use_column_width=True)
 
 st.header("🗺️ 삿포로 주요 관광지 지도")
 st.write("아래 지도에서 삿포로의 주요 관광지들을 한눈에 확인해보세요! 각 마커를 클릭하면 간단한 정보를 볼 수 있습니다.")
@@ -17,39 +17,38 @@ st.write("아래 지도에서 삿포로의 주요 관광지들을 한눈에 확�
 # 삿포로 중심 좌표
 sapporo_coords = [43.0642, 141.3469]
 
-# 관광지 데이터 (예시, 실제 데이터는 더 추가 가능)
-# 각 관광지에 대한 더 자세한 설명과 이미지 링크를 추가하면 좋아요!
+# 관광지 데이터 (Visit Sapporo 이미지 링크로 업데이트)
 tourist_spots = [
     {"name": "오도리 공원", "lat": 43.0630, "lon": 141.3537,
      "description": "삿포로 시내 중심을 가로지르는 아름다운 공원입니다. 사계절 내내 다양한 행사와 축제가 열립니다. 삿포로 눈 축제, 라일락 축제 등.",
-     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/sites/8/2022/09/spot_odoripark-5.jpg"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_odori-park-1.jpg"},
     {"name": "삿포로 TV 타워", "lat": 43.0614, "lon": 141.3571,
      "description": "오도리 공원 동쪽 끝에 위치한 삿포로의 랜드마크입니다. 전망대에서 삿포로 시내를 한눈에 조망할 수 있습니다.",
-     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sapporo_TV_Tower.jpg/800px-Sapporo_TV_Tower.jpg"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_sapporo-tv-tower-1.jpg"},
     {"name": "삿포로 시계탑", "lat": 43.0634, "lon": 141.3524,
      "description": "삿포로의 상징적인 건축물로, 1878년에 지어진 유서 깊은 건물입니다. 붉은 지붕과 흰 벽이 인상적입니다.",
-     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sapporo_Clock_Tower_2005.jpg/800px-Sapporo_Clock_Tower_2005.jpg"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_sapporo-clock-tower-1.jpg"},
     {"name": "삿포로 맥주 박물관", "lat": 43.0766, "lon": 141.3725,
      "description": "일본에서 가장 오래된 맥주 브랜드 중 하나인 삿포로 맥주의 역사와 양조 과정을 배울 수 있는 곳입니다. 시음도 가능합니다.",
-     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sapporo_Beer_Garden_2005-1.jpg/800px-Sapporo_Beer_Garden_2005-1.jpg"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_sapporo-beer-garden-museum-1.jpg"},
     {"name": "홋카이도 구 본청사 (아카렌가 청사)", "lat": 43.0620, "lon": 141.3510,
      "description": "붉은 벽돌로 지어진 아름다운 건물로, 홋카이도 개척 시대의 상징입니다. 내부에는 박물관과 자료실이 있습니다.",
-     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Former_Hokkaido_Government_Office_Sapporo.jpg/1280px-Former_Hokkaido_Government_Office_Sapporo.jpg"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_former-hokkaido-government-office-1.jpg"},
     {"name": "삿포로 눈 축제 (오도리 공원)", "lat": 43.0630, "lon": 141.3537,
      "description": "매년 2월 초에 열리는 세계적인 겨울 축제입니다. 오도리 공원을 중심으로 눈과 얼음 조각들이 전시됩니다. (축제 기간에만 해당)",
-     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Sapporo_Snow_Festival_2017_Odori_Park_Site.jpg/1280px-Sapporo_Snow_Festival_2017_Odori_Park_Site.jpg"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2022/01/yuki-matsuri_main_1-1.jpg"}, # 눈축제 관련 이미지
     {"name": "삿포로 팩토리", "lat": 43.0664, "lon": 141.3659,
      "description": "옛 삿포로 맥주 공장 부지에 조성된 복합 쇼핑몰입니다. 쇼핑, 레스토랑, 영화관 등 다양한 시설이 있습니다.",
-     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sapporo_Factory_2007.jpg/800px-Sapporo_Factory_2007.jpg"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_sapporo-factory-1.jpg"},
     {"name": "모이와 산 (모이와야마)", "lat": 43.0298, "lon": 141.3283,
      "description": "삿포로 야경을 감상하기 좋은 명소입니다. 로프웨이를 타고 정상에 오르면 아름다운 삿포로의 파노라마 야경을 볼 수 있습니다.",
-     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mt._Moiwa_night_view_from_observation_deck.jpg/1280px-Mt._Moiwa_night_view_from_observation_deck.jpg"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_mt-moiwa-1.jpg"},
     {"name": "시로이 코이비토 파크", "lat": 43.0858, "lon": 141.2828,
      "description": "홋카이도의 유명한 과자 '시로이 코이비토'를 테마로 한 테마파크입니다. 과자 만들기 체험, 정원, 카페 등이 있습니다.",
-     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Shiroi_Koibito_Park_2009.jpg/1280px-Shiroi_Koibito_Park_2009.jpg"},
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_shiroi-koibito-park-1.jpg"},
     {"name": "스스키노", "lat": 43.0563, "lon": 141.3524,
      "description": "삿포로 최대의 번화가이자 유흥가입니다. 다양한 레스토랑, 바, 상점들이 밀집해 있으며 밤에는 화려한 네온사인으로 빛납니다.",
-     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Susukino_intersection_at_night.jpg/1280px-Susukino_intersection_at_night.jpg"}
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_susukino-1.jpg"}
 ]
 
 # Folium 지도 생성
