@@ -19,9 +19,6 @@ sapporo_coords = [43.0642, 141.3469]
 
 # 관광지 데이터 (Visit Sapporo 이미지 링크로 업데이트)
 tourist_spots = [
-    {"name": "오도리 공원", "lat": 43.0630, "lon": 141.3537,
-     "description": "삿포로 시내 중심을 가로지르는 아름다운 공원입니다. 사계절 내내 다양한 행사와 축제가 열립니다. 삿포로 눈 축제, 라일락 축제 등.",
-     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_odori-park-1.jpg"},
     {"name": "삿포로 TV 타워", "lat": 43.0614, "lon": 141.3571,
      "description": "오도리 공원 동쪽 끝에 위치한 삿포로의 랜드마크입니다. 전망대에서 삿포로 시내를 한눈에 조망할 수 있습니다.",
      "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/sites/8/2022/09/spot_tvtower-2.jpg"},
