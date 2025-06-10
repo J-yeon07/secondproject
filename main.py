@@ -108,14 +108,14 @@ youtube_vlogs = [
     {
         "title": "삿포로 혼자 여행 vlog 🇯🇵 역시 겨울 여행은 삿포로지❄️ 오타루, 르타오 디저트, 오르골당, 스프카레, 헌터 단톤 쇼핑, 스스키노 가성비 숙소 | EP.1",
         "video_id": "YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7", # 실제 유튜브 영상 ID로 교체 (예시)
-        "thumbnail_url": "https://img.youtube.com/vi/YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7/default.jpg", # 위 video_id 기반
+        "thumbnail_url": "https://img.youtube.com/vi/YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7/sdddefault.jpg", # 위 video_id 기반
         "youtube_url": "https://youtu.be/YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7" # 위 video_id 기반
     },
     {
         "title": "삿포로 3박 4일 자유여행 | 겨울왕국 홋카이도 | 비에이 | 오타루 | 삿포로 시내 | 징기스칸 | 스프카레 | 온천",
-        "video_id": "zVf6nK9bXwE", # 실제 유튜브 영상 ID로 교체 (예시)
-        "thumbnail_url": "https://img.youtube.com/vi/zVf6nK9bXwE/mqdefault.jpg", # 위 video_id 기반
-        "youtube_url": "https://www.youtube.com/watch?v=zVf6nK9bXwE" # 위 video_id 기반
+        "video_id": "ml1rIL1Xkyc?si=Rs4LMcuUHbXKEVcG", # 실제 유튜브 영상 ID로 교체 (예시)
+        "thumbnail_url": "https://img.youtube.com/vi/ml1rIL1Xkyc?si=Rs4LMcuUHbXKEVcG/sddefault.jpg", # 위 video_id 기반
+        "youtube_url": "https://youtu.be/ml1rIL1Xkyc?si=Rs4LMcuUHbXKEVcG" # 위 video_id 기반
     },
     {
         "title": "혼자 삿포로 가는 이유 | 혼자 삿포로 여행 가면 진짜 좋은 곳 | 가성비 + 눈+ 맥주 + 삿포로 여행 총정리",
