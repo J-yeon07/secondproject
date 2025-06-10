@@ -106,10 +106,10 @@ st.write("삿포로 여행의 생생함을 느껴보고 싶다면, 인기 유튜
 # 대부분의 경우 mqdefault.jpg나 hqdefault.jpg가 안정적으로 작동합니다.
 youtube_vlogs = [
     {
-        "title": "❄️삿포로 여행 VLOG | 삿포로 눈축제, 오타루 운하, 비에이, 삿포로 맛집, 쇼핑 추천 | SAPPORO VLOG 🇯🇵",
-        "video_id": "8f3_eM5iY08", # 실제 유튜브 영상 ID로 교체 (예시)
-        "thumbnail_url": "https://img.youtube.com/vi/8f3_eM5iY08/mqdefault.jpg", # 위 video_id 기반
-        "youtube_url": "https://www.youtube.com/watch?v=8f3_eM5iY08" # 위 video_id 기반
+        "title": "삿포로 혼자 여행 vlog 🇯🇵 역시 겨울 여행은 삿포로지❄️ 오타루, 르타오 디저트, 오르골당, 스프카레, 헌터 단톤 쇼핑, 스스키노 가성비 숙소 | EP.1",
+        "video_id": "YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7", # 실제 유튜브 영상 ID로 교체 (예시)
+        "thumbnail_url": "https://img.youtube.com/vi/YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7/mqdefault.jpg", # 위 video_id 기반
+        "youtube_url": "https://youtu.be/YfcBGt_fbF8?si=ypFPcGM0kwWlwFM7" # 위 video_id 기반
     },
     {
         "title": "삿포로 3박 4일 자유여행 | 겨울왕국 홋카이도 | 비에이 | 오타루 | 삿포로 시내 | 징기스칸 | 스프카레 | 온천",
