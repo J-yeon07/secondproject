@@ -19,33 +19,33 @@ sapporo_coords = [43.0642, 141.3469]
 
 # 관광지 데이터 (Visit Sapporo 이미지 링크로 업데이트)
 tourist_spots = [
-    {"name": "오도리 공원", "lat": 43.0630, "lon": 141.3537,
-     "description": "삿포로 시내 중심을 가로지르는 아름다운 공원입니다. 사계절 내내 다양한 행사와 축제가 열립니다. 삿포로 눈 축제, 라일락 축제 등.",
-     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_odori-park-1.jpg"},
-    {"name": "삿포로 TV 타워", "lat": 43.0614, "lon": 141.3571,
-     "description": "오도리 공원 동쪽 끝에 위치한 삿포로의 랜드마크입니다. 전망대에서 삿포로 시내를 한눈에 조망할 수 있습니다.",
-     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/sites/8/2022/09/spot_tvtower-2.jpg"},
-    {"name": "삿포로 시계탑", "lat": 43.0634, "lon": 141.3524,
-     "description": "삿포로의 상징적인 건축물로, 1878년에 지어진 유서 깊은 건물입니다. 붉은 지붕과 흰 벽이 인상적입니다.",
-     "image_url": "https://www.sapporo.travel/cms/wp-content/uploads/2020/10/tokeidaiMV_slide1.jpg"},
-    {"name": "삿포로 맥주 박물관", "lat": 43.0766, "lon": 141.3725,
-     "description": "일본에서 가장 오래된 맥주 브랜드 중 하나인 삿포로 맥주의 역사와 양조 과정을 배울 수 있는 곳입니다. 시음도 가능합니다.",
-     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSln3-HKLIdCvKLkXf2T8X1sgnAg88lLQx-UQ&s"},
-    {"name": "홋카이도 구 본청사 (아카렌가 청사)", "lat": 43.0620, "lon": 141.3510,
-     "description": "붉은 벽돌로 지어진 아름다운 건물로, 홋카이도 개척 시대의 상징입니다. 내부에는 박물관과 자료실이 있습니다.",
-     "image_url": "https://www.sapporo.travel/cms/wp-content/uploads/2020/10/c005-012.jpg"},
-    {"name": "삿포로 팩토리", "lat": 43.0664, "lon": 141.3659,
-     "description": "옛 삿포로 맥주 공장 부지에 조성된 복합 쇼핑몰입니다. 쇼핑, 레스토랑, 영화관 등 다양한 시설이 있습니다.",
-     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxE4zcrCrB2Nlo2Q74D5AGNwXF-_wBPDnPIg&s"},
-    {"name": "모이와 산 (모이와야마)", "lat": 43.0298, "lon": 141.3283,
-     "description": "삿포로 야경을 감상하기 좋은 명소입니다. 로프웨이를 타고 정상에 오르면 아름다운 삿포로의 파노라마 야경을 볼 수 있습니다.",
-     "image_url": "https://www.sapporo.travel/cms/wp-content/uploads/2020/10/moiwa-yakei-1200x600-1.jpg"},
-    {"name": "시로이 코이비토 파크", "lat": 43.0858, "lon": 141.2828,
-     "description": "홋카이도의 유명한 과자 '시로이 코이비토'를 테마로 한 테마파크입니다. 과자 만들기 체험, 정원, 카페 등이 있습니다.",
-     "image_url": "https://media.triple.guide/triple-cms/c_limit,f_auto,h_1024,w_1024/b723950c-e152-4bd9-8561-ae17a550dbc5.jpeg"},
-    {"name": "스스키노", "lat": 43.0563, "lon": 141.3524,
-     "description": "삿포로 최대의 번화가이자 유흥가입니다. 다양한 레스토랑, 바, 상점들이 밀집해 있으며 밤에는 화려한 네온사인으로 빛납니다.",
-     "image_url": "https://www.visit-hokkaido.jp/lsc/upfile/spot/0001/0009/10009_1_l.jpg"}
+    {"name": "오도리 공원", "lat": 43.0630, "lon": 141.3537,
+     "description": "삿포로 시내 중심을 가로지르는 아름다운 공원입니다. 사계절 내내 다양한 행사와 축제가 열립니다. 삿포로 눈 축제, 라일락 축제 등.",
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/2021/05/img_odori-park-1.jpg"},
+    {"name": "삿포로 TV 타워", "lat": 43.0614, "lon": 141.3571,
+     "description": "오도리 공원 동쪽 끝에 위치한 삿포로의 랜드마크입니다. 전망대에서 삿포로 시내를 한눈에 조망할 수 있습니다.",
+     "image_url": "https://visit.sapporo.travel/ko/wp-content/uploads/sites/8/2022/09/spot_tvtower-2.jpg"},
+    {"name": "삿포로 시계탑", "lat": 43.0634, "lon": 141.3524,
+     "description": "삿포로의 상징적인 건축물로, 1878년에 지어진 유서 깊은 건물입니다. 붉은 지붕과 흰 벽이 인상적입니다.",
+     "image_url": "https://www.sapporo.travel/cms/wp-content/uploads/2020/10/tokeidaiMV_slide1.jpg"},
+    {"name": "삿포로 맥주 박물관", "lat": 43.0766, "lon": 141.3725,
+     "description": "일본에서 가장 오래된 맥주 브랜드 중 하나인 삿포로 맥주의 역사와 양조 과정을 배울 수 있는 곳입니다. 시음도 가능합니다.",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSln3-HKLIdCvKLkXf2T8X1sgnAg88lLQx-UQ&s"},
+    {"name": "홋카이도 구 본청사 (아카렌가 청사)", "lat": 43.0620, "lon": 141.3510,
+     "description": "붉은 벽돌로 지어진 아름다운 건물로, 홋카이도 개척 시대의 상징입니다. 내부에는 박물관과 자료실이 있습니다.",
+     "image_url": "https://www.sapporo.travel/cms/wp-content/uploads/2020/10/c005-012.jpg"},
+    {"name": "삿포로 팩토리", "lat": 43.0664, "lon": 141.3659,
+     "description": "옛 삿포로 맥주 공장 부지에 조성된 복합 쇼핑몰입니다. 쇼핑, 레스토랑, 영화관 등 다양한 시설이 있습니다.",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxE4zcrCrB2Nlo2Q74D5AGNwXF-_wBPDnPIg&s"},
+    {"name": "모이와 산 (모이와야마)", "lat": 43.0298, "lon": 141.3283,
+     "description": "삿포로 야경을 감상하기 좋은 명소입니다. 로프웨이를 타고 정상에 오르면 아름다운 삿포로의 파노라마 야경을 볼 수 있습니다.",
+     "image_url": "https://www.sapporo.travel/cms/wp-content/uploads/2020/10/moiwa-yakei-1200x600-1.jpg"},
+    {"name": "시로이 코이비토 파크", "lat": 43.0858, "lon": 141.2828,
+     "description": "홋카이도의 유명한 과자 '시로이 코이비토'를 테마로 한 테마파크입니다. 과자 만들기 체험, 정원, 카페 등이 있습니다.",
+     "image_url": "https://media.triple.guide/triple-cms/c_limit,f_auto,h_1024,w_1024/b723950c-e152-4bd9-8561-ae17a550dbc5.jpeg"},
+    {"name": "스스키노", "lat": 43.0563, "lon": 141.3524,
+     "description": "삿포로 최대의 번화가이자 유흥가입니다. 다양한 레스토랑, 바, 상점들이 밀집해 있으며 밤에는 화려한 네온사인으로 빛납니다.",
+     "image_url": "https://www.visit-hokkaido.jp/lsc/upfile/spot/0001/0009/10009_1_l.jpg"}
 ]
 
 # Folium 지도 생성
@@ -56,78 +56,38 @@ marker_cluster = MarkerCluster().add_to(m)
 
 # 관광지 마커 추가
 for spot in tourist_spots:
-    html = f"""
-    <h4>{spot['name']}</h4>
-    <img src="{spot['image_url']}" alt="{spot['name']}" style="width:150px;height:auto;"><br>
-    <p>{spot['description']}</p>
-    """
-    iframe = folium.IFrame(html, width=200, height=250)
-    popup = folium.Popup(iframe, max_width=260)
-    folium.Marker(
-        location=[spot['lat'], spot['lon']],
-        popup=popup,
-        tooltip=spot['name'],
-        icon=folium.Icon(color='red', icon='info-sign')
-    ).add_to(marker_cluster)
+    html = f"""
+    <h4>{spot['name']}</h4>
+    <img src="{spot['image_url']}" alt="{spot['name']}" style="width:150px;height:auto;"><br>
+    <p>{spot['description']}</p>
+    """
+    iframe = folium.IFrame(html, width=200, height=250)
+    popup = folium.Popup(iframe, max_width=260)
+    folium.Marker(
+        location=[spot['lat'], spot['lon']],
+        popup=popup,
+        tooltip=spot['name'],
+        icon=folium.Icon(color='red', icon='info-sign')
+    ).add_to(marker_cluster)
 
 # 지도를 HTML로 저장 후 Streamlit에 표시
 st.components.v1.html(folium.Figure().add_child(m).render(), height=500)
 
----
+st.markdown("---")
 
 st.header("🌟 주요 관광지 상세 가이드")
 
 # 각 관광지에 대한 상세 정보 섹션
 for i, spot in enumerate(tourist_spots):
-    st.subheader(f"{i+1}. {spot['name']}")
-    col1, col2 = st.columns([1, 2])
-    with col1:
-        st.image(spot['image_url'], caption=spot['name'], width=250)
-    with col2:
-        st.write(f"**📍 위치:** 위도 {spot['lat']}, 경도 {spot['lon']}")
-        st.write(f"**📝 설명:** {spot['description']}")
-        st.write("더 자세한 정보를 원하시면 해당 장소의 공식 웹사이트나 여행 가이드를 참고해주세요!")
-    st.markdown("---")
-
----
-
-st.header("🎬 삿포로 여행 브이로그 (조회수 높은 순)")
-st.write("삿포로 여행의 생생함을 느껴보고 싶다면, 인기 유튜브 브이로그를 통해 미리 경험해보세요! 썸네일을 클릭하면 영상으로 이동합니다.")
-
-# 조회수 높은 삿포로 여행 브이로그 (예시)
-# 실제 조회수 기준이 아닐 수 있으니, 필요시 최신 정보로 업데이트해주세요.
-youtube_vlogs = [
-    {
-        "title": "❄️삿포로 여행 VLOG | 삿포로 눈축제, 오타루 운하, 비에이, 삿포로 맛집, 쇼핑 추천 | SAPPORO VLOG 🇯🇵",
-        "video_id": "YOUR_VIDEO_ID_1", # 실제 유튜브 영상 ID로 교체해주세요
-        "thumbnail_url": "https://img.youtube.com/vi/YOUR_VIDEO_ID_1/hqdefault.jpg", # 실제 썸네일 URL로 교체해주세요
-        "youtube_url": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_1" # 실제 유튜브 영상 URL로 교체해주세요
-    },
-    {
-        "title": "삿포로 3박 4일 자유여행 | 겨울왕국 홋카이도 | 비에이 | 오타루 | 삿포로 시내 | 징기스칸 | 스프카레 | 온천",
-        "video_id": "YOUR_VIDEO_ID_2", # 실제 유튜브 영상 ID로 교체해주세요
-        "thumbnail_url": "https://img.youtube.com/vi/YOUR_VIDEO_ID_2/hqdefault.jpg", # 실제 썸네일 URL로 교체해주세요
-        "youtube_url": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_2" # 실제 유튜브 영상 URL로 교체해주세요
-    },
-    {
-        "title": "혼자 삿포로 가는 이유 | 혼자 삿포로 여행 가면 진짜 좋은 곳 | 가성비 + 눈+ 맥주 + 삿포로 여행 총정리",
-        "video_id": "YOUR_VIDEO_ID_3", # 실제 유튜브 영상 ID로 교체해주세요
-        "thumbnail_url": "https://img.youtube.com/vi/YOUR_VIDEO_ID_3/hqdefault.jpg", # 실제 썸네일 URL로 교체해주세요
-        "youtube_url": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_3" # 실제 유튜브 영상 URL로 교체해주세요
-    }
-]
-
-# 유튜브 브이로그 표시
-for vlog in youtube_vlogs:
-    st.subheader(vlog['title'])
-    st.markdown(f"""
-    <a href="{vlog['youtube_url']}" target="_blank">
-        <img src="{vlog['thumbnail_url']}" alt="{vlog['title']}" style="width:300px; border-radius: 8px;">
-    </a>
-    """, unsafe_allow_html=True)
-    st.write(f"[영상 보러가기]({vlog['youtube_url']})")
-    st.markdown("---")
-
+    st.subheader(f"{i+1}. {spot['name']}")
+    col1, col2 = st.columns([1, 2])
+    with col1:
+        st.image(spot['image_url'], caption=spot['name'], width=250)
+    with col2:
+        st.write(f"**📍 위치:** 위도 {spot['lat']}, 경도 {spot['lon']}")
+        st.write(f"**📝 설명:** {spot['description']}")
+        st.write("더 자세한 정보를 원하시면 해당 장소의 공식 웹사이트나 여행 가이드를 참고해주세요!")
+    st.markdown("---")
 
 st.header("🍜 삿포로에서 꼭 맛봐야 할 음식")
 st.write("삿포로는 맛있는 음식으로도 유명하죠! 삿포로에 오시면 꼭 드셔보세요.")
@@ -158,3 +118,8 @@ st.markdown("""
 
 st.markdown("---")
 st.write("이 가이드가 삿포로 여행에 도움이 되셨기를 바랍니다! 즐겁고 행복한 삿포로 여행 되세요! 🌸")
+
+너가 만든 코드를 약간 수정했어.
+삿포로에 갔다온 관련 여행 vlog 유튜브를 추가하고 싶어.
+조회수가 높은 순서대로 3개정도 추가할거야.
+링크를 연결할거고, 썸네일을 그대로 가지고 와서 썸네일을 누르면 유튜브로 연결될 수 있도록 해줘
