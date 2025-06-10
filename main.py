@@ -73,7 +73,7 @@ for spot in tourist_spots:
 # 지도를 HTML로 저장 후 Streamlit에 표시
 st.components.v1.html(folium.Figure().add_child(m).render(), height=500)
 
-st.markdown("---")
+---
 
 st.header("🌟 주요 관광지 상세 가이드")
 
@@ -88,6 +88,46 @@ for i, spot in enumerate(tourist_spots):
         st.write(f"**📝 설명:** {spot['description']}")
         st.write("더 자세한 정보를 원하시면 해당 장소의 공식 웹사이트나 여행 가이드를 참고해주세요!")
     st.markdown("---")
+
+---
+
+st.header("🎬 삿포로 여행 브이로그 (조회수 높은 순)")
+st.write("삿포로 여행의 생생함을 느껴보고 싶다면, 인기 유튜브 브이로그를 통해 미리 경험해보세요! 썸네일을 클릭하면 영상으로 이동합니다.")
+
+# 조회수 높은 삿포로 여행 브이로그 (예시)
+# 실제 조회수 기준이 아닐 수 있으니, 필요시 최신 정보로 업데이트해주세요.
+youtube_vlogs = [
+    {
+        "title": "❄️삿포로 여행 VLOG | 삿포로 눈축제, 오타루 운하, 비에이, 삿포로 맛집, 쇼핑 추천 | SAPPORO VLOG 🇯🇵",
+        "video_id": "YOUR_VIDEO_ID_1", # 실제 유튜브 영상 ID로 교체해주세요
+        "thumbnail_url": "https://img.youtube.com/vi/YOUR_VIDEO_ID_1/hqdefault.jpg", # 실제 썸네일 URL로 교체해주세요
+        "youtube_url": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_1" # 실제 유튜브 영상 URL로 교체해주세요
+    },
+    {
+        "title": "삿포로 3박 4일 자유여행 | 겨울왕국 홋카이도 | 비에이 | 오타루 | 삿포로 시내 | 징기스칸 | 스프카레 | 온천",
+        "video_id": "YOUR_VIDEO_ID_2", # 실제 유튜브 영상 ID로 교체해주세요
+        "thumbnail_url": "https://img.youtube.com/vi/YOUR_VIDEO_ID_2/hqdefault.jpg", # 실제 썸네일 URL로 교체해주세요
+        "youtube_url": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_2" # 실제 유튜브 영상 URL로 교체해주세요
+    },
+    {
+        "title": "혼자 삿포로 가는 이유 | 혼자 삿포로 여행 가면 진짜 좋은 곳 | 가성비 + 눈+ 맥주 + 삿포로 여행 총정리",
+        "video_id": "YOUR_VIDEO_ID_3", # 실제 유튜브 영상 ID로 교체해주세요
+        "thumbnail_url": "https://img.youtube.com/vi/YOUR_VIDEO_ID_3/hqdefault.jpg", # 실제 썸네일 URL로 교체해주세요
+        "youtube_url": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_3" # 실제 유튜브 영상 URL로 교체해주세요
+    }
+]
+
+# 유튜브 브이로그 표시
+for vlog in youtube_vlogs:
+    st.subheader(vlog['title'])
+    st.markdown(f"""
+    <a href="{vlog['youtube_url']}" target="_blank">
+        <img src="{vlog['thumbnail_url']}" alt="{vlog['title']}" style="width:300px; border-radius: 8px;">
+    </a>
+    """, unsafe_allow_html=True)
+    st.write(f"[영상 보러가기]({vlog['youtube_url']})")
+    st.markdown("---")
+
 
 st.header("🍜 삿포로에서 꼭 맛봐야 할 음식")
 st.write("삿포로는 맛있는 음식으로도 유명하죠! 삿포로에 오시면 꼭 드셔보세요.")
